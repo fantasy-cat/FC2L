@@ -1,0 +1,16 @@
+[package]
+name = "fc2rust"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "fc2rust"
+crate-type = ["dylib"]
+
+[[bin]]
+name = "fc2rust"
+path = "src/lib.rs"
+
+[dependencies]
+mlua = { version = "0.10.2", features = ["luajit", "vendored"] }
+winapi = "0.3.9"

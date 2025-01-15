@@ -1,0 +1,8 @@
+[submodule "luajit"]
+	path = luajit
+	url = https://github.com/LuaJIT/LuaJIT
+	ignore = dirty
+[submodule "fc2t"]
+	path = fc2t
+	url = https://github.com/fantasy-cat/FC2T
+	ignore = dirty
