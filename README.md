@@ -11,6 +11,6 @@ When building simply run either `windows.bat` or `linux.sh` to create your own F
 
 ## Early Development
 FC2T/L was discovered as an unintended library loader in FC2 that has now become a feature.\
-Features from FC2T are being viewed for compatibility, so don't expect it to run FC2T headers (yet).
+FC2T's features can be used in the same context inside the modules now!
 
 More to be done. - WholeCream
